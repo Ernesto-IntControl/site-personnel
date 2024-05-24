@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+:root{
+    --color:#b9138a;
+    --bg-color:#1f1f21;
+    --text-color:#fff;
+}
+body{
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+header{
+    
+    left: 0;
+    right: 0;
+    width: 100%;
+    padding: 30px 70px;
+    display: flex;
+    
+} span{
+    color: var(--color);
+    
+}
+hr{
+    width: 80%;
+    margin-left: 10%;
+}
+.navigation{
+    margin-left: 440px;
+}
+.navigation a{
+    position:relative;
+    text-decoration: none;
+    font-size: 1,1rem;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+    margin-left: 60px;
+    color: var(--text-color);
+    font-weight: 500;
+    border-bottom: solid 2px transparent;
+    transition: .3s;
+    display: inline-block;
+    padding: 10px 0px;
+}
+.navigation a:hover{
+    border-bottom: 2px solid var(--color);
+    color: var(--color);
+    font-weight: bold;
+}
+.navigation a.active{
+    border-bottom: 2px solid var(--color);
+    color: var(--color);
+    font-weight: bold;
+}
+h1{
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    left: 1px;
+    padding-left: 60px;
+}
+h5{
+    margin-top: 30px;
+}
+.box p{
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+legend{
+    color: rgb(70, 70, 247);
+    font-weight: bold;
+}
+.sp{
+    margin-bottom: 20px;
+}
+#bb{
+    border-right: #ccc 1px solid;
+    padding-right: 25px;
+}
+.bx{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 20px;
+    width: 80%;
+    margin-left: 10%;
+}
+section{
+    display: flex;
+    justify-content:;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 50px;
+    padding: 10px;
+    box-shadow: 0 7px 15px rgb(185, 19, 138 ,1);
+}
+.abt{
+    width: 100%;
+    border-left: 5px solid #fff;
+    margin-left: 50px;
+    padding: 15px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-shadow: 0 4px 8px rgb(256, 256, 256 ,0.5);
+}
+img{
+    border: 2px solid rgb(185, 19, 138);
+
+}
+h3{
+    margin-bottom: 2.5rem;
+    text-align: center;
+}
+p{
+    margin-top: 45px;
+    margin-left: 35px;
+    text-align: left;
+}
+
+
